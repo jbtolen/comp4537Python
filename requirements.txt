@@ -1,5 +1,5 @@
-torch==2.2.2+cpu
-transformers==4.44.2
+torch==2.5.1+cpu
+transformers==4.46.3
 gradio==4.42.0
 pillow
 --extra-index-url https://download.pytorch.org/whl/cpu
