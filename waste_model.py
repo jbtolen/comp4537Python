@@ -58,7 +58,6 @@ class WasteClassifier:
         except Exception as e:
             return {"error": f"Inference failed: {str(e)}"}
 
-# ✅ Entry point (same CLI behavior as before)
 classifier = WasteClassifier()
 
 if __name__ == "__main__":
